@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Buscar hubicacion</title>
+	<link rel="stylesheet" type="text/css" href="diseño.css">
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+		crossorigin="anonymous">
+     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="crossorigin="anonymous"></script>
+	<script src="mpa1.js"></script>
+       <!-- Barra de navegación -->
+    <nav>
+        <ul>
+			<li><a href="index.html">Inicio</a></li>
+            <li><a href="mapa.html">Mapa</a></li>
+            <li><a href="youtubesport.html">Youtubesport</a></li>
+            <!-- Agrega más enlaces según sea necesario -->
+        </ul>
+    </nav>
+	</head>
+<body>
+	<h1>Buscar</h1>
+	<form id="coord-form">
+		<input type="text" id="lat" placeholder="Latitud">
+		<input type="text" id="lng" placeholder="Longitud">
+		<button type="button" onclick="ubicar()" id="locate-button">Ubicar</button>
+	</form>
+	<div id="map" style="width: 500px; height: 500px;"></div>
+
+
+	<script src="java/funcion.js"></script>
+	<link rel="stylesheet" type="text/css" href="Estilos/mapa.css">
+    <link rel="stylesheet" type="text/css" href="Estilos/estiloyutube.css">
+</body>
+</html>
+

@@ -1,0 +1,63 @@
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+}
+#head {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo para el encabezado */
+h1 {
+    color: #333;
+}
+
+/* Estilo para el formulario */
+#coord-form {
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Estilo para los campos de entrada */
+input {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+/* Estilo para el botón */
+#locate-button {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilo para el mapa */
+#map {
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    
+}
+
+/* Estilo para el pie de página */
+footer {
+    margin-top: 20px;
+    color: #777;
+}
+
+/* Estilo para enlaces */
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

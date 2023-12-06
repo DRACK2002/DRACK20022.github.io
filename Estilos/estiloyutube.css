@@ -1,0 +1,93 @@
+
+/* Reset de estilos */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-image: url('https://s3.amazonaws.com/rtvc-assets-canalinstitucional.tv/s3fs-public/styles/amp_1200x675_16_9/public/2022-11/Funciones-del-Ministerio-del-Deporte%20%281%29.jpg?itok=qpyB_V-5'); /* Cambia 'ruta/de/la/imagen.jpg' por la ruta de tu imagen */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff; /* Cambia el color del texto si es necesario */
+}
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-container {
+    margin-bottom: 20px;
+}
+
+#search-input {
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#search-button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+#search-button:hover {
+    background-color: #555;
+}
+
+#results {
+    /* Estilos para los resultados de la búsqueda */
+}
+/* estiloyutube.css */
+
+/* Reset some default styles for the list */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for each list item */
+nav li {
+    display: inline;
+    margin-right: 15px;
+}
+
+/* Style for the anchor (link) */
+nav a {
+    text-decoration: none;
+    color: #e60a0a;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+/* Change color on hover */
+nav a:hover {
+    color: #10d3d3; /* Adjust the color as needed */
+}
+
